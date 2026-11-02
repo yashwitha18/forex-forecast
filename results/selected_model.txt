@@ -1,0 +1,2 @@
+Model with best mean validation R^2 on fx15_macro: Lasso
+(the paper selected RandomForest the same way)

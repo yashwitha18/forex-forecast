@@ -1,0 +1,235 @@
+{
+  "fx_GBP": {
+    "rows_raw": 3899,
+    "missing_close": 0,
+    "non_positive": 0,
+    "duplicate_dates": 0,
+    "removed_bad_prints": [],
+    "gaps_over_5_days": [
+      "2008-01-23"
+    ],
+    "flagged_jumps": [
+      {
+        "date": "2016-06-27",
+        "close": 0.74344
+      }
+    ],
+    "rows_clean": 3899,
+    "first_date": "2003-12-01",
+    "last_date": "2018-11-30"
+  },
+  "fx_EUR": {
+    "rows_raw": 3887,
+    "missing_close": 0,
+    "non_positive": 0,
+    "duplicate_dates": 0,
+    "removed_bad_prints": [
+      {
+        "date": "2008-01-08",
+        "close": 0.64222
+      },
+      {
+        "date": "2008-02-08",
+        "close": 0.64222
+      },
+      {
+        "date": "2008-09-08",
+        "close": 0.66445
+      },
+      {
+        "date": "2008-10-08",
+        "close": 0.66858
+      },
+      {
+        "date": "2008-12-08",
+        "close": 0.67033
+      }
+    ],
+    "gaps_over_5_days": [
+      "2008-08-08",
+      "2008-08-26"
+    ],
+    "flagged_jumps": [],
+    "rows_clean": 3882,
+    "first_date": "2003-12-01",
+    "last_date": "2018-11-30"
+  },
+  "fx_JPY": {
+    "rows_raw": 4647,
+    "missing_close": 0,
+    "non_positive": 0,
+    "duplicate_dates": 0,
+    "removed_bad_prints": [
+      {
+        "date": "2008-04-08",
+        "close": 108.18
+      },
+      {
+        "date": "2008-05-08",
+        "close": 108.269997
+      },
+      {
+        "date": "2008-10-08",
+        "close": 110.089996
+      },
+      {
+        "date": "2008-12-08",
+        "close": 109.239998
+      }
+    ],
+    "gaps_over_5_days": [
+      "2008-08-08",
+      "2008-08-26"
+    ],
+    "flagged_jumps": [
+      {
+        "date": "2008-10-28",
+        "close": 98.199997
+      }
+    ],
+    "rows_clean": 4643,
+    "first_date": "2001-01-01",
+    "last_date": "2018-11-30"
+  },
+  "idx_SP500": {
+    "rows_raw": 4508,
+    "missing_close": 0,
+    "non_positive": 0,
+    "duplicate_dates": 0,
+    "gaps_over_5_days": [
+      "2001-09-17"
+    ],
+    "flagged_jumps": [
+      {
+        "date": "2008-09-29",
+        "close": 1106.420044
+      },
+      {
+        "date": "2008-10-13",
+        "close": 1003.349976
+      },
+      {
+        "date": "2008-10-15",
+        "close": 907.840027
+      },
+      {
+        "date": "2008-10-28",
+        "close": 940.51001
+      },
+      {
+        "date": "2008-12-01",
+        "close": 816.210022
+      }
+    ],
+    "rows_clean": 4508,
+    "first_date": "2001-01-02",
+    "last_date": "2018-11-30"
+  },
+  "idx_SP100": {
+    "rows_raw": 4508,
+    "missing_close": 0,
+    "non_positive": 0,
+    "duplicate_dates": 0,
+    "gaps_over_5_days": [
+      "2001-09-17"
+    ],
+    "flagged_jumps": [
+      {
+        "date": "2008-09-29",
+        "close": 515.52002
+      },
+      {
+        "date": "2008-10-13",
+        "close": 475.51001
+      },
+      {
+        "date": "2008-10-15",
+        "close": 434.440002
+      },
+      {
+        "date": "2008-10-28",
+        "close": 456.570007
+      },
+      {
+        "date": "2008-12-01",
+        "close": 395.850006
+      }
+    ],
+    "rows_clean": 4508,
+    "first_date": "2001-01-02",
+    "last_date": "2018-11-30"
+  },
+  "idx_NASDAQ": {
+    "rows_raw": 4508,
+    "missing_close": 0,
+    "non_positive": 0,
+    "duplicate_dates": 0,
+    "gaps_over_5_days": [
+      "2001-09-17"
+    ],
+    "flagged_jumps": [
+      {
+        "date": "2001-01-03",
+        "close": 2616.689941
+      },
+      {
+        "date": "2001-04-05",
+        "close": 1785.0
+      },
+      {
+        "date": "2008-09-29",
+        "close": 1983.72998
+      },
+      {
+        "date": "2008-10-13",
+        "close": 1844.25
+      },
+      {
+        "date": "2008-10-15",
+        "close": 1628.329956
+      },
+      {
+        "date": "2008-10-28",
+        "close": 1649.469971
+      },
+      {
+        "date": "2008-12-01",
+        "close": 1398.069946
+      }
+    ],
+    "rows_clean": 4508,
+    "first_date": "2001-01-02",
+    "last_date": "2018-11-30"
+  },
+  "idx_DJIA": {
+    "rows_raw": 4508,
+    "missing_close": 0,
+    "non_positive": 0,
+    "duplicate_dates": 0,
+    "gaps_over_5_days": [
+      "2001-09-17"
+    ],
+    "flagged_jumps": [
+      {
+        "date": "2008-10-13",
+        "close": 9387.610352
+      },
+      {
+        "date": "2008-10-15",
+        "close": 8577.910156
+      },
+      {
+        "date": "2008-10-28",
+        "close": 9065.120117
+      },
+      {
+        "date": "2008-12-01",
+        "close": 8149.089844
+      }
+    ],
+    "rows_clean": 4508,
+    "first_date": "2001-01-02",
+    "last_date": "2018-11-30"
+  },
+  "common_start": "2003-12-01"
+}
