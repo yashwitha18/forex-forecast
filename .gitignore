@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+# synthetic test runs: never commit
+data/synthetic/
+data/processed_synthetic/
+results_synthetic/
+figures_synthetic/
+# Commit data/raw/ once you have the final download so results are reproducible.
