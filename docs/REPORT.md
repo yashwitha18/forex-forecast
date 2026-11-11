@@ -3,7 +3,7 @@
 **Course:** Machine Learning — Mini Project
 **Team:** Catherine D (CS120) · Yashwitha (CS121)
 **Date:** November 2026
-**Code:** this repository (`python main.py` reproduces every number below)
+**Code and data:** [https://github.com/yashwitha18/forex-forecast](https://github.com/yashwitha18/forex-forecast)
 
 ---
 
@@ -396,7 +396,7 @@ forecasting results are easily overstated.** With them, the 1983 conclusion stil
 
 ## Appendix
 
-**A. Reproduce.** `pip install -r requirements.txt`, then `python main.py` (~10 min on a laptop),
+**A. Reproduce.** Clone [https://github.com/yashwitha18/forex-forecast](https://github.com/yashwitha18/forex-forecast), then `pip install -r requirements.txt`, then `python main.py` (~10 min on a laptop),
 `python -m src.diagnose`, and `python -m src.diagnose MLP fx15_macro --seeds`.
 
 **B. Full result tables.** `results/exp1_sign_by_pair.csv`, `results/exp2_return_by_pair.csv`,
